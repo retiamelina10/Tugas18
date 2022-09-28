@@ -38,56 +38,70 @@ public class LoginSteps {
 
     @When("I input valid email and did not input my password")
     public void iInputValidEmailAndDidNotInputMyPassword() {
-        System.out.println("null password");
+        System.out.println("I opened the LinkedIn site");
     }
 
     @Then("Then I can't log in")
     public void thenICanTLogIn() {
-        System.out.println("Then I can't log in");
+        System.out.println("I can't log in");
     }
 
     @When("I input valid email and valid password")
     public void iInputValidEmailAndValidPassword() {
+        System.out.println("input valid emal");
+        System.out.println("input valid password");
 
     }
 
     @Then("Then I can log in")
     public void thenICanLogIn() {
+        System.out.println("i can login");
     }
 
     @When("I input valid password")
     public void iInputValidPassword() {
+        System.out.println("input valid password");
     }
 
     @When("I input invalid email and invalid password")
     public void iInputInvalidEmailAndInvalidPassword() {
+        System.out.println("input invalid email");
+        System.out.println("input invalid password");
     }
 
-    @When("I input valid password and invalid password")
+    @When("I input valid email and invalid password")
     public void iInputValidPasswordAndInvalidPassword() {
+        System.out.println("input valid email");
+        System.out.println("input invalid password");
     }
 
     @When("I click the field login with google")
     public void iClickTheFieldLoginWithGoogle() {
+        System.out.println("click field login with google account");
     }
 
     @And("I choose the google acount")
     public void iChooseTheGoogleAcount() {
+        System.out.println("choose google account");
     }
 
     @Then("I can log in")
     public void iCanLogIn() {
+        System.out.println("success login");
     }
 
     @When("I click the field login with apple")
     public void iClickTheFieldLoginWithApple() {
+        System.out.println("I click field login with apple");
     }
 
     @And("I input my apple ID")
     public void iInputMyAppleID() {
+        System.out.println("input the apple ID");
     }
 
     @And("I input my password")
     public void iInputMyPassword() {
+        System.out.println("input password");
     }
 }
