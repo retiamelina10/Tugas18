@@ -104,4 +104,10 @@ public class LoginSteps {
     public void iInputMyPassword() {
         System.out.println("input password");
     }
+
+    @When("I input valid password and invalid password")
+    public void inputValidPasswordAndInvalidPassword() {
+        System.out.println("I input valid password and invalid password");
+
+    }
 }

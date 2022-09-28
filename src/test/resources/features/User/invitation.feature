@@ -16,7 +16,7 @@ Feature: Invitation
       When I clicking connection in the people recommendations that appear
       Then I interaction with the person receiving the connection
 
-    Scenario: Join a group
+  Scenario: Join a group
       Given I have to logged
       And I go to my network menu
       And I go to connection field

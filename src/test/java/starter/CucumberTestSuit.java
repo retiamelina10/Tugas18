@@ -10,6 +10,6 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features"
 )
 
-public class CucumberRun {
+public class CucumberTestSuit {
 
 }

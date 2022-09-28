@@ -42,7 +42,7 @@ Feature: Login
 
   Scenario: Login with valid email and invalid password
     Given I opened the LinkedIn site
-    When I input valid password and invalid password
+    When I input valid email and invalid password
     Then I can't log in
     And an error message appears
 
